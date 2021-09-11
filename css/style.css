@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --light-red: hsl(356, 100%, 66%);
+  --very-light-red: hsl(355, 100%, 74%);
+  --Very-dark-blue: hsl(208, 49%, 24%);
+
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--gray-50);
+  font-size: 16px;
+}
+/* body,
+input,
+textarea,
+button {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--gray-500);
+} */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: Lexend, sans-serif;
+  color: var(--gray-800);
+} */
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+button {
+  cursor: pointer;
+}
+
+main {
+  height: 100vh;
+}
+
+.hero {
+  background-color: var(--light-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 0 3rem;
+  padding: 10rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: var(--white);
+  padding-bottom: 1rem;
+  text-align: center;
+}
+.hero p {
+  color: var(--white);
+  padding-bottom: 2rem;
+}
+
+button {
+  height: 3rem;
+  border: 0;
+  border-radius: 1.5rem;
+  padding: 0 1rem;
+  font-weight: bold;
+  transition: 200ms all;
+  margin: 0 0.5rem;
+}
+
+.button-group {
+  display: flex;
+}
+
+.primary-contained {
+  background-color: var(--white);
+  color: var(--light-red);
+}
+
+.primary-contained:hover {
+  color: var(--white);
+  background-color: var(--very-light-red);
+}
+
+.primary-outlined {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.primary-outlined:hover {
+  background: var(--white);
+  color: var(--light-red);
+}
+
+footer {
+}
