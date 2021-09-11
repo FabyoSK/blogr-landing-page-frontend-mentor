@@ -6,7 +6,7 @@
 :root {
   --light-red: hsl(356, 100%, 66%);
   --very-light-red: hsl(355, 100%, 74%);
-  --Very-dark-blue: hsl(208, 49%, 24%);
+  --very-dark-blue: hsl(208, 49%, 24%);
 
   --white: hsl(0, 0%, 100%);
   --grayish-blue: hsl(240, 2%, 79%);
@@ -108,7 +108,7 @@ button {
 }
 
 section {
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 section h2 {
@@ -120,6 +120,35 @@ section h2 {
 section p {
   color: var(--very-dark-grayish-blue);
   text-align: center;
+}
+
+.illustration-image {
+  width: 100%;
+}
+
+.card {
+  padding: 0 2rem;
+  margin: 2rem 0;
+}
+.card-dark {
+  background: var(--very-dark-blue);
+  margin: 5rem 0;
+  padding: 2rem;
+  color: var(--white);
+  border-radius: 0 4rem 0 4rem;
+}
+
+.card-dark-image {
+  margin-top: -5rem;
+}
+
+.card-dark-info h2,
+.card-dark-info p {
+  color: var(--white);
+}
+
+.card-dark-info p {
+  padding-bottom: 2rem;
 }
 
 footer {
