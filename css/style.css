@@ -9,6 +9,9 @@
   --Very-dark-blue: hsl(208, 49%, 24%);
 
   --white: hsl(0, 0%, 100%);
+  --grayish-blue: hsl(240, 2%, 79%);
+  --very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --very-dark-black-blue: hsl(240, 10%, 16%);
 }
 
 body {
@@ -52,7 +55,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 0 0 0 3rem;
+  border-radius: 0 0 0 4rem;
   padding: 10rem 2rem;
 }
 
@@ -103,4 +106,24 @@ button {
 }
 
 footer {
+  background: var(--very-dark-black-blue);
+  border-radius: 0 4rem 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+footer .footer-section {
+  margin: 1rem 0;
+}
+
+footer .footer-section-title {
+  color: var(--white);
+  margin: 1rem 0;
+}
+
+footer .footer-section-item {
+  color: var(--grayish-blue);
 }
